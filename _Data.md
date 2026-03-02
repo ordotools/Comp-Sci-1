@@ -8,8 +8,7 @@ This file contains the data that you may need for various assignments.
 
 ```python
 import random
-
-random_numbers = [random.random() for _ in range(10_000)]
+random_numbers = [random.randint(1, 1000) for _ in range(25)]
 
 ```
 
