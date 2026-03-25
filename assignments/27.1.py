@@ -19,6 +19,11 @@ scores = [42, 7, 99, 15, 3, 88, 56, 23, 71, 4, 61, 38, 19, 90, 5, 47, 82, 12, 66
 
 # your code here
 
+for score in scores:
+    if score < 10:
+        scores.remove(score)
+    scores.append(95, 11)
+
 print("After Step 1:", scores)
 
 # ----------------------------------------------------------
