@@ -5,16 +5,16 @@
 # while loops work like for loops, except they continue until a certain condition is false
 
 # EXAMPLE 1
-while 1 == 1:
-    pass  # this means "do nothing, and don't throw an error"
+# while 1 == 1:
+#     pass  # this means "do nothing, and don't throw an error"
 
 # the code above does nothing, but it will run forever, because 1 will always be equal to 1.
 
 
 # EXAMPLE 2
-i = 10
-while i > 0:
-    i = i - 1
+# i = 10
+# while i > 0:
+#     i = i - 1
 
 # this code runs exactly 10 times, but each time it runs, i becomes smaller and smaller.
 
@@ -29,7 +29,7 @@ while user != answer:
     elif user < answer:
         print("Too low!")
         break  # this is a keyword which stops the while loop -- this works in for loops as well.
-    else:
+    else:  # this is never reached!!
         print("Congratulations!!")
 
 # input() asks the user for input. Putting input() into int() ensures that the input is an integer.
